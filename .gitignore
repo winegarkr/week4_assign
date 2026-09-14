@@ -1,0 +1,5 @@
+# Source reference documents — may contain confidential/proprietary employer material.
+# Never commit these; only the generalized content in chatbot_instructions.md should be pushed.
+*.pdf
+*.docx
+*.pptx
