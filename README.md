@@ -4,6 +4,8 @@ A coaching chatbot that helps a brand-new Product Owner navigate their first 90 
 
 **Live chatbot:** https://box.boodle.ai/a/@90-DayProductOwnerCoach
 
+**Chatbot instructions:** [chatbot_instructions.md](./chatbot_instructions.md) — the full system prompt pasted into BoodleBox. This is the source of truth for everything the coach does.
+
 ## What this is
 
 This repository contains the system instructions for a BoodleBox chatbot, developed as an assignment for a Foundations of AI course in an M.S. Applied AI program. The assignment's purpose was to practice the full workflow of authoring, version-controlling, and iterating on an AI chatbot's instructions using Claude Code and Git/GitHub — then deploying and testing the result in BoodleBox.
@@ -12,7 +14,7 @@ The coach itself is built around a real-world Product Owner onboarding scenario:
 
 ## Repository contents
 
-- **`chatbot_instructions.md`** — the full system instructions pasted into BoodleBox's chatbot builder. This is the source of truth; everything else is derived from it.
+- **[`chatbot_instructions.md`](./chatbot_instructions.md)** — the full system instructions pasted into BoodleBox's chatbot builder. This is the source of truth; everything else is derived from it.
 - **`chatbot_instructions.docx`** *(not tracked in git — see `.gitignore`)* — a Word-formatted export of the instructions, generated locally for convenience when uploading to BoodleBox.
 - **`CLAUDE.md`** — standing context for Claude Code describing how to work on this project.
 
